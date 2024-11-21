@@ -1,11 +1,112 @@
+<!--
+#BDE3F2
+#315259
+#6A9BA6
+#010D00
+#062601
+-->
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    
 </head>
 <body>
-    <H1>página funcionando!</H1>
+    <nav>
+        <a href="projetos/todos.html">Projetos</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <main>
+        <h2>E aí! Bem-vindo ao meu Portfólio! &#x1F680 </h2>
+        <p>Me chamo Karlos, tenho 16 anos e gosto de programar. No momento estou explorando o desenvolvimento Web com Django. Aqui, você vai ver alguns dos meus projetos. Sinta-se à vontade para explorar.</p>
+        <p id="frase"><strong>Bora codar! 💻</strong></p>
+    </main>
+
+    <main class='two' id="main-container">
+        <h1>Meus Projetos</h1>
+
+          <div class="row">
+            <div class="col s12 m6 14">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <span class="card-title">Invasão Espacial</span>
+                  <p>Desenvolvido em Python utilizando a biblioteca Pygame. Este jogo estilo nave coloca você no comando contra vírus alieníginas. Atire, colete power-ups e proteja a galáxia. Que a força esteja com você!.</p>
+                </div>
+                <div class="card-action">
+                  <a href="projetos/invasão_espacial.html">veja mais</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 14">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <span class="card-title">Portfólio</span>
+                  <p>Desenvolvido com HTML5 e CSS3: Este site que você está visitando foi criado para apresentar meus projetos de programação.</p>
+                </div>
+                <div class="card-action">
+                  <a href="projetos/site_portifolio.html">veja mais</a>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <div class="row">
+            
+          </div>
+
+          <div class="row">
+            <div class="col s12 m6 14">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <span class="card-title">Automação de Tarefas</span>
+                  <p>Um bot de automação de tarefas desenvolvido em Python. Ele utiliza as bibliotecas PyAutoGUI e Pandas para preencher um cadastro de produtos com dados provenientes de uma base de dados.</p>
+                </div>
+                <div class="card-action">
+                  <a href="projetos/bot_automacao.html">veja mais</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 12">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <span class="card-title">MeArm</span>
+                  <p>Este é um código para controlar o um braço robótico <a href="https://www.instructables.com/Pocket-Sized-Robot-Arm-meArm-V04/" target="_blank">MeArm</a> utilizando dois módulos joystick, ou no modo automático.</p>
+                </div>
+                <div class="card-action">
+                  <a href="projetos/mearm.html">veja mais</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+         
+         
+         <div class="container">
+          <a class="waves-effect waves-light btn-large  cyan darken-4" href="projetos/todos.html">Todos projetos</a>
+          </div>
+
+
+
+    </main>
+
+    <footer> Desenvolvido por <a href="https://github.com/Kar437" target="_blank">Kar437</a></footer>
+
+    <script src="materialize/js/materialize.js"></script>
+
 </body>
 </html>

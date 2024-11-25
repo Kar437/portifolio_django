@@ -1,0 +1,186 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #F5F3F3;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+header{
+    background-color: #010D00;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 1.7em;
+}
+
+/* ---------------NAV----------------- */
+
+nav{
+    background-color: #010D00;
+    text-align: center;
+    
+}
+
+nav a {
+    color:  white;
+
+    padding: 20px;
+
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+
+nav a:hover{
+    color: #BDE3F2;
+}
+
+/* ---------------MAIN----------------- */
+
+main{
+    background-color: #F5F3F3;
+}
+
+main h1{
+    padding: 20px 0px 0px 20px;
+    font-size: 1.5em;
+}
+
+main h2{
+    font-size: 21px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+main p{
+    text-indent: 15px;
+    text-align: justify;
+    padding: 20px;
+}
+
+p#frase{
+    padding-top: 0px;
+}
+
+/* ---------------Listas-------------- */
+
+ul.lista{
+    padding-left: 40px;
+    text-align: justify;
+}
+
+ol.lista{
+    padding-left: 40px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+
+
+/* ---------------IFRAME----------------- */
+
+.iframe-container {
+    margin: auto;
+    position: relative; /* Define a posição como relativa para permitir posicionamento absoluto do iframe */
+    width: 95%; /* O contêiner ocupa 100% da largura disponível */
+    padding-bottom: 75%; /* Define a altura do contêiner como 56.25% da largura para manter a proporção 16:9 */
+    height: 0; /* Altura inicial zero, a altura real é determinada pelo padding */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do contêiner */
+
+    border: solid 1px rgba(0, 0, 0, 0.227);
+}
+
+/* Estilo para o iframe dentro do contêiner */
+.iframe-container iframe {
+    position: absolute; /* Posiciona o iframe de forma absoluta dentro do contêiner */
+    top: 0; /* Alinha o iframe ao topo do contêiner */
+    left: 0; /* Alinha o iframe à esquerda do contêiner */
+    width: 100%; /* O iframe ocupa 100% da largura do contêiner */
+    height: 100%; /* O iframe ocupa 100% da altura do contêiner */
+}
+
+/* ---------------main.two----------------- */
+
+main.two{
+    background-color: #F5F3F3;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+main.two h1{
+    font-size: 2em;
+    padding: 30px 20px 40px 20px;
+}
+
+/* ---------------Cards-------------------- */
+
+.card{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  
+  .col {
+    display: flex;
+  }
+  
+  .card {
+    flex: 1;
+  }
+
+  .card-action{
+    margin-top: auto;
+  }
+  
+/* ---------------BOTÃO------------------ */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+/* ---------------FOOTER----------------- */
+
+footer{
+    background-color: #010D00;
+    color: white;
+    text-align: center;
+
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #BDE3F2;
+}

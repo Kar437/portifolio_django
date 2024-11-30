@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="stylesheet" href="../materialize/css/materialize.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../media-queries.css">
+    <title>Bot Automação</title>
+</head>
+<body>
+    <header>
+        <h1>Bot Automação</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="todos.html">Projetos</a>
+        <a href="../sobre.html">Sobre</a>
+    </nav>
+
+    <main>
+        <h2>Visão Geral:</h1>
+        <p>Este projeto é um bot de automação de tarefas desenvolvido em python, utilizando as bibliotecas PyAutoGUI e Pandas, para preencher um cadastro de produtos com dados provenientes de uma base de dados.</p>
+
+        <h1>Funcionalidades Principais:</h1>
+        <p><strong>Automação:</strong> O bot simula ações do usuario, como clicks de mouse e teclado, etc. <br>
+            <strong>Manipulação de Dados:</strong> A biblioteca Pandas é usada para ler e processar os dados da base, garantindo que os produtos sejam cadastrados corretamente.</p>
+
+        <h1>Como funciona: </h1>
+        <ol class="lista">
+            <li>Assim que iniciado o bot abre o navegador e realiza o login na plataforma.</li>
+            <li>Ele lê a base de dados (nesse caso, um arquivo CVS).</li>
+            <li>Para cada produto na base, o bot preenche os campos necessários na página.</li>
+            <li>O processo de cadastro de produtos é repetido até que todos os produtos sejam cadastrados.</li>
+        </ol>
+        
+        <h1>Benefícios: </h1>
+        <ul class="lista">
+            <li><strong>Eficência:</strong> O bot automatiza tarefas repetitivas, economizando tempo.</li>
+            <li><strong>Escabilidade:</strong> Pode lidar com grandes quantidades de dados de forma consistente</li>
+            <li><strong>Precisão:</strong> Os dados são inseridos exatamente conforme especificado na base de dados</li>
+        </ul>
+
+        <p>Código fonte do projeto, disponível no GitHub: </p>
+
+        <div class="container">
+            <a class="waves-effect waves-light btn-large  cyan darken-4" href="https://github.com/Kar437/bot-automacao" target="_blank">Código Fonte</a>
+            </div>
+            
+            <h1>Sistema Fictício:</h1>
+            <p>Você pode testar o bot com esse sistema de <a href="../pagina-cadastro/login.html" target="_blank">cadastro fictício</a>. <br>
+                Na página de login coloque dados fictícios, é apenas para teste, não é necessários e-mail ou senha válidos.</p>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/Kar437" target="_blank">Kar437</a></p>
+    </footer>
+    
+    <script src="../materialize/js/materialize.js"></script>
+</body>
+</html>

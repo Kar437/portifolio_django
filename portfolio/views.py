@@ -7,3 +7,6 @@ def index (request):
 
 def sobre (request):
     return render (request, "sobre/sobre.html")
+
+def todos (request):
+    return render (request, "projetos/todos.html")
